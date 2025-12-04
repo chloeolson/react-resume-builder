@@ -2,10 +2,12 @@ import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Languages from './components/Languages';
+import Nationalities from './components/Nationalities';
 import Contact from './components/Contact';
 import Publication from './components/Publication';
 
 import { ResumeData } from './dataModel';
+import DownloadPDF from './components/DownloadButton';
 
 
 interface AppProps {
@@ -32,6 +34,9 @@ function App({ profile }: AppProps) {
         <Languages
           languages={profile.languages}
         />
+        <hr className="divider" />
+        <Nationalities nationalities={profile.nationalities} />
+    
       </div>
       <div className="main">
         <h1 className="name">{profile.name}</h1>
@@ -50,7 +55,9 @@ function App({ profile }: AppProps) {
           hyperlinks={profile.hyperlinks !== false}
         />
       </div>
+          <DownloadPDF />
     </div>
+
   );
 }
 

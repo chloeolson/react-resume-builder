@@ -16,6 +16,10 @@ export interface LanguageData {
     level: string;
 }
 
+export interface NationalityData {
+    nationality: string;
+}
+
 export interface ExperienceData {
     company: string;
     title: string;
@@ -49,6 +53,7 @@ export interface ResumeData {
     contact: ContactData;
     about: AboutData;
     languages: LanguageData[];
+    nationalities: NationalityData[];
     experiences: ExperienceData[];
     education: EducationData[];
     publications: PublicationData[];

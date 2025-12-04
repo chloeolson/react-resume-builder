@@ -6,7 +6,7 @@ function Entry({ publication, hyperlinks }: { publication: PublicationData; hype
         <div className="publication entry">
             <div className="entry-header">
                 <h4>{publication.title}</h4>
-                <span className="entry-company">Published in {publication.journal}</span>
+                
             </div>
             <div className="entry-meta">
                 <h5>{publication.date}</h5>
@@ -39,7 +39,7 @@ export default function Publication({ publications, hyperlinks = true }: Publica
 
     return (
         <div className="publication section">
-            <h3>PUBLICATIONS</h3>
+            <h3>PROJECTS</h3>
             {publicationElements}
         </div>
     );

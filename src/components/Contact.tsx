@@ -25,28 +25,16 @@ export default function Contact(props: ContactProps) {
                 </p>
                 <p className="contact-item">
                     <span className="contact-label">LinkedIn:</span>
-                    {hyperlinks ? (
-                        <a href={`https://${props.linkedin}`} target="_blank" rel="noopener noreferrer">Profile</a>
-                    ) : (
-                        props.linkedin
-                    )}
+                        {props.linkedin}
                 </p>
                 <p className="contact-item">
                     <span className="contact-label">GitHub:</span>
-                    {hyperlinks ? (
-                        <a href={`https://${props.github}`} target="_blank" rel="noopener noreferrer">Profile</a>
-                    ) : (
-                        props.github
-                    )}
+                    {props.github}
                 </p>
                 {props.personal_website && (
                     <p className="contact-item">
                         <span className="contact-label">Website:</span>
-                        {hyperlinks ? (
-                            <a href={`https://${props.personal_website}`} target="_blank" rel="noopener noreferrer">Visit</a>
-                        ) : (
-                            props.personal_website
-                        )}
+                            {props.personal_website}
                     </p>
                 )}
             </div>

@@ -1,93 +1,98 @@
 {
     "hyperlinks": true,
-    "photo": "./profile.jpeg",
-    "name": "AARON VISSCHEDIJK",
+    "photo": "./photo_beige.png",
+    "name": "CHLOE OLSON",
     "title": "SOFTWARE DEVELOPER",
     "contact": {
-        "email": "aaron.visschedijk@gmail.com",
-        "phone": "(+45) 52 22 06 09",
-        "personal_website": "aaronvisschedijk.com",
-        "linkedin": "linkedin.com/in/aaron-visschedijk-03953a146/",
-        "github": "github.com/aaron-visschedijk"
+        "email": "chloe.olson95@gmail.com",
+        "phone": "(+45) 50 31 02 33",
+        "personal_website": "https://chloeolson.vercel.app/",
+        "linkedin": "https://www.linkedin.com/in/chloe-olson-455099/",
+        "github": "https://github.com/chloeolson/"
     },
     "about": {
-        "content": "AI-oriented Software Engineer experienced in developing intelligent agents, robust AI safeguards, and scalable enterprise integrations. Skilled in Python and Django, with hands-on experience in Kubernetes, Vue, and AWS. Focused on integrating LLM technologies into reliable, real-world customer workflows."
+        "content": "I combine strong communication skills with technical abilities to be active collaborator in driving software creation and maintenance.  I am able to handle different working styles and transform problems into effective technical solutions. With an interest and ability to learn, I am keen to keep involved in a team where my skills can grow."
     },
     "languages": [
         {
             "language": "English",
-            "level": "Native Level"
-        },
-        {
-            "language": "Dutch",
             "level": "Native"
         },
         {
-            "language": "German",
-            "level": "Limited"
+            "language": "Danish",
+            "level": "Elementary"
+        },
+        {
+            "language": "Hungarian",
+            "level": "Intermediate"
+        },
+        {
+            "language": "Spanish",
+            "level": "Intermediate"
         }
     ],
+    "nationalities": [{"nationality": "Hungarian"},{"nationality": "U.S.A."}],
     "experiences": [
         {
-            "title": "Software Engineer",
-            "company": "Puzzel (formerly SupWiz, acquired august 2024)",
-            "duration": "May 2023 - Present",
-            "achievements": [
-                "Developed and maintained production-grade chatbot features using Django, Vue, Kubernetes, and PostgreSQL",
-                "Designed and implemented agentic AI features with OpenAI’s Agents SDK to automate customer-support workflows",
-                "Strengthened safety of generated AI responses by implementing safeguards based on embedding vectors, LLM-as-a-judge and deterministic checks",
-                "Built email ticketing integrations for large enterprise customers which handle over 10.000 tickets per month"
-            ],
-            "location": "Copenhagen, Denmark"
-        },
-        {
-            "title": "Backend Developer",
-            "company": "Nuuday",
-            "duration": "Nov 2021 - Oct 2022",
-            "achievements": [
-                "Built the Disney+ sign-up integration and contributed to the HBO Max integration, enabling seamless partner subscription flows in our streaming platform YouTV (discontinued).",
-                "Developed backend APIs using AWS Lambda, API Gateway, S3, Python, and Terraform for YouTV and YouSee mobile"
-            ],
-            "location": "Copenhagen, Denmark"
-        },
-        {
-            "title": "Python Tutor",
-            "company": "Private",
-            "duration": "Feb 2020 - Jun 2020",
-            "achievements": [
-                "Tutored one student in 'python for social sciences' undergrad course",
-                "The student achieved a grade of 10 on a 12 point scale"
-            ],
-            "location": "Copenhagen, Denmark"
-        }
+  "title": "Student Engineer",
+  "company": "Famly ApS",
+  "duration": "August 2024 - September 2025",
+  "achievements": [
+    "Developed and maintained frontend features using React and TypeScript, focusing on clean, user-friendly interfaces.",
+    "Collaborated with backend engineers to integrate APIs and ensure reliable full-stack functionality.",
+    "Worked closely with cross-functional teams in agile format to turn user insights into meaningful product improvements.",
+    "Took ownership of frontend tasks end-to-end, delivering high-quality, maintainable code aligned with project goals."
+  ],
+  "location": "Copenhagen, Denmark"
+},
+{
+  "title": "Customer Advisor",
+  "company": "Famly ApS",
+  "duration": "September 2021 - July 2024",
+  "achievements": [
+    "Provided technical support to UK-based customers via chat and phone, ensuring a seamless user experience.",
+    "Collaborated with Product and Engineering teams to resolve issues and improve platform usability.",
+    "Created and maintained help center content to improve clarity and accessibility for users.",
+    "Coordinated internally to support accurate and timely feature releases, improving overall product quality."
+  ],
+  "location": "Copenhagen, Denmark"
+}
+    
     ],
     "education": [
         {
-            "degree": "MSc Computer Science",
-            "school": "University of Copenhagen",
-            "duration": "Aug 2019 - Sep 2021",
+            "degree": "MSc Software Design",
+            "school": "IT University Copenhagen",
+            "duration": "August 2023 - January 2026",
             "location": "Copenhagen, Denmark"
         },
         {
             "degree": "Exchange Semester",
-            "school": "University of Sydney",
-            "duration": "Jul 2017 - Jan 2018",
-            "location": "Sydney, Australia"
+            "school": "University of Copenhagen",
+            "duration": "August 2019- July 2020",
+            "location": "Copenhagen, Denmark"
         },
         {
-            "degree": "BSc Computer Science",
-            "school": "Radboud University Nijmegen",
-            "duration": "Aug 2015 - May 2018",
-            "location": "Nijmegen, Netherlands"
+            "degree": "BSc Sociology and Politics",
+            "school": "University of Edinburgh",
+            "duration": "September 2017 - May 2021",
+            "location": "Edinburgh, Scotland"
         }
     ],
     "publications": [
-        {
-            "title": "ClipWidgets: 3D-printed Modular Tangible UI Extensions for Smartphones",
-            "journal": "TEI (ACM)",
-            "date": "2022",
-            "link": "dl.acm.org/doi/10.1145/3490149.3501314",
-            "description": "Scientific article based on MSc. thesis research about 3D printing interactive UI components for smartphones. The article was accepted and published at ACM conference TEI2022. The article was written in collaboration with Hyunyoung Kim, Carlos Tejada and Daniel Ashbrook."
-        }
+  {
+  "title": "Masters Thesis – User Motivation: Case Study of Zeeguu",
+  "journal": "",
+  "date": "July 2024 – Present",
+  "link": "",
+  "description": "Conducted structured interviews with 20 users to uncover motivations and translate insights into actionable requirements. Delivered an end-to-end progress-tracking feature and collaborated closely with stakeholders to shape a user-aligned UX."
+},
+{
+  "title": "WhattoWea(th)er Copenhagen",
+  "journal": "",
+  "date": "Feb 2025 – Aug 2025",
+  "link": "",
+  "description": "Built a web app using OpenAI and OpenWeather APIs to recommend what users should wear based on the weather in Copenhagen. Developed a smooth, intuitive interface with a lightweight user flow and room for future expansion."
+}
     ]
 }
